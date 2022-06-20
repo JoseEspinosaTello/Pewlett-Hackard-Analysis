@@ -43,3 +43,9 @@ After review we were able to query, create tables, and export lists to .csv file
 ![ment_eli_query.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ment_eli_query.png)
 
 ![ment_eli_result.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ment_eli_result.png)
+
+- Total count Eligible for Mentorship
+
+![total_count_ment_qry.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/total_count_ment_qry.png)
+
+![total_count_ment_rst.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/total_count_ment_rst.png)
