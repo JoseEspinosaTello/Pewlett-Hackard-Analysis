@@ -68,3 +68,22 @@ INNER JOIN  dept_emp as de on e.emp_no = de.emp_no
 INNER JOIN titles as ti on e.emp_no = ti.emp_no
 WHERE (de.to_date = '9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' and '1965-12-31')
 ORDER BY e.emp_no;
+
+--tables that can help
+
+--eligible for mentorship by dept
+
+SELECT count(emp_no) as dept_count, title
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY count(emp_no) DESC;
+
+--total eligible as mentor
+
+SELECT count(*) as total_count
+FROM mentorship_eligibility
+
+-- total employees retiring
+
+SELECT count(*) as ret_total
+FROM unique_titles
