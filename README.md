@@ -2,7 +2,7 @@
 
 ## Overview of the analysis:
 
-Pewlet-Hackard is preparing for the "silver tsunami'. This event forsees a large number of Pewlet-Hackard current employees retiring in the forseeable future. Pewlet-Hackard has request a list of employees eligible for retirment. Additionally, Pewlet-Hackard wants to identify the following wave  of retirees an imploy a mentorship program. This mentorship program will help new employee adapt, by using the experienced next wave retirees as their mentors.
+Pewlett-Hackard is preparing for the "silver tsunami'. This event forsees a large number of Pewlet-Hackard current employees retiring in the forseeable future. Pewlet-Hackard has request a list of employees eligible for retirment. Additionally, Pewlet-Hackard wants to identify the following wave  of retirees an imploy a mentorship program. This mentorship program will help new employee adapt, by using the experienced next wave retirees as their mentors.
 
 We will create a set of Queries that will provide the names of employees eligible for retirment, count of employees retiring from each title, and employees eligible for the mentorship program. Each query was used to generate a new table in the database and exported as a .csv file for review.
 
@@ -36,4 +36,10 @@ We will create a set of Queries that will provide the names of employees eligibl
 
 ## Summary:
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+After review we were able to query, create tables, and export lists to .csv files in order to help prepare Pewlett-Hackard for the "silver tsunami". The company will now analize the information a determine how many employees they must hire in order to prepare for the change. The company will also be able to determine how many employees can be pulled from each department to act as mentors to the new employes. In order to further assist with the large picture we have generated queries that list the full count of retiring employees and employees eligible to act as menotors.
+
+- Eligible for Mentorship by department
+
+![ment_eli_query.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ment_eli_query.png)
+
+![ment_eli_result.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ment_eli_result.png)
