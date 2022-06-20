@@ -55,3 +55,5 @@ After review we were able to query, create tables, and export lists to .csv file
 ![ret_ttl_qry.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ret_ttl_qry.png)
 
 ![ret_ttl_rst.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ret_ttl_rst.png)
+
+We can now see that there are a total of 72,458 employees retiring, which is a huge number compared to the 1,549 employees eligible to act as mentors. If these number remain constant, this means each mentor wil have around 47 new emplyees under their wing, which can change based on department. Pewlett-Hackard may want to consider bringing in more employees for the mentorship program, as these number will more than likley prove to difficult to maintain for an individual mentor.
