@@ -21,7 +21,7 @@ BY
 
 ![retirement_titles](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/retirement_titles.png)
 
-- DISTINCT Retirment Titles: Our second attempt at identifying the current employees elidigble for retirment has us using the DISTINCT statment to return a single row for each employee id. We set the empoyee id as the DISTINCT key and ORDER BY emploee id in acesnding order and last date by decending order. This eliminates duplicates of the same employee id and helps filter the employees eligibly for retirment, ultimatly, making the list easier to read..
+- DISTINCT Retirment Titles: Our second attempt at identifying the current employees elidigble for retirment has us using the DISTINCT statment to return a single row for each employee id. We set the empoyee id as the DISTINCT key and ORDER BY emploee id in acesnding order and last date by decending order. This eliminates duplicates of the same employee id and helps filter the employees eligible for retirment, ultimately, making the list easier to read.
 
 ![unique_titles](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/unique_titles.png)
 
