@@ -10,6 +10,7 @@ FROM titles
 --Join both tables on the primary key.
 --Filter the data on the birth_date column to retrieve the employees who were born between 1952 and 1955.
 --Order by the employee number.
+--retiring emps
 DROP TABLE if EXISTS retirement_titles;
 
 SELECT e.emp_no,
@@ -26,6 +27,7 @@ ORDER BY e.emp_no;
 
 
 -- Use Dictinct with Orderby to remove duplicate rows
+-- retiring emps 
 DROP TABLE if EXISTS unique_titles;
 
 SELECT DISTINCT ON (emp_no) emp_no,
@@ -41,10 +43,10 @@ ORDER BY emp_no ASC, to_date DESC;
 --retrieve the number of titles from the Unique Titles table
 --create a Retiring Titles table to hold the required information
 --Group the table by title, then sort the count column in descending order
-
+--employees retiring by title
 DROP TABLE IF EXISTS retiring_titles;
 
-SELECT count(emp_no), title
+SELECT count(emp_no) as dept_count, title
 INTO retiring_titles
 FROM unique_titles
 GROUP BY title

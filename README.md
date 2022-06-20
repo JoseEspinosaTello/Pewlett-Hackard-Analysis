@@ -16,16 +16,24 @@ We will create a set of Queries that will provide the names of employees eligibl
 - Employee_Database_challenge.sql
 
 ## Results:
-BY
+
 - Retirement Titles: This was our first attempt at identifying the current employees eligible for retirment. The table did return the desired results as we were able to find the employees eligilbe for retirment, however, there was a hiccup. This query returned duplicates of employees who have held multiple positions within the company over the years.
 
 ![retirement_titles](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/retirement_titles.png)
 
-- DISTINCT Retirment Titles: Our second attempt at identifying the current employees elidigble for retirment has us using the DISTINCT statment to return a single row for each employee id. We set the empoyee id as the DISTINCT key and ORDER BY emploee id in acesnding order and last date by decending order. This eliminates duplicates of the same employee id and helps filter the employees eligible for retirment, ultimately, making the list easier to read.
+- DISTINCT Retirment Titles: Our second attempt at identifying the current employees elidigble for retirment has us using the DISTINCT statment to return a single row for each employee id. We set the empoyee id as the DISTINCT key and ORDER BY emploee id in ascending order and last date by descending order. This eliminates duplicates of the same employee id and helps filter the employees eligible for retirment, ultimately, making the list easier to read.
 
 ![unique_titles](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/unique_titles.png)
 
-There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-Summary:
+- Retiring Titles: The retiring titles query returns a count of the amount of employees retiring from each position. Once we found the list of retiring employees we were able to generate a count and GROUP BY employee title/postition.
+
+![retiring_titles](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/retiring_titles.png)
+
+- Mentorship Eligibility: This list identifies all current employees born 1965 as this is the next wave of employees eligible for retirment. To gather the information we joined three tables, selected DISTINCT on employee id, and ordered by employee id.
+
+![mentorship_eligibility](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/mentorship_eligibility.png)
+
+
+## Summary:
 
 The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
