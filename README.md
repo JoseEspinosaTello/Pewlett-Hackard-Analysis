@@ -36,7 +36,7 @@ We will create a set of Queries that will provide the names of employees eligibl
 
 ## Summary:
 
-After review we were able to query, create tables, and export lists to .csv files in order to help prepare Pewlett-Hackard for the "silver tsunami". The company will now analize the information a determine how many employees they must hire in order to prepare for the change. The company will also be able to determine how many employees can be pulled from each department to act as mentors to the new employes. In order to further assist with the large picture we have generated queries that list the full count of retiring employees and employees eligible to act as menotors.
+After review we were able to query, create tables, and export lists to .csv files in order to help prepare Pewlett-Hackard for the "silver tsunami". The company will now analize the information a determine how many employees they must hire in order to prepare for the change. The company will also be able to determine how many employees can be pulled from each department to act as mentors to the new employes. In order to further assist with the large picture, we have generated queries that list the full count of retiring employees and employees eligible to act as mentors.
 
 - Eligible for Mentorship by department
 
@@ -49,3 +49,9 @@ After review we were able to query, create tables, and export lists to .csv file
 ![total_count_ment_qry.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/total_count_ment_qry.png)
 
 ![total_count_ment_rst.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/total_count_ment_rst.png)
+
+- Total Employees Retiring
+
+![ret_ttl_qry.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ret_ttl_qry.png)
+
+![ret_ttl_rst.png](https://github.com/JoseEspinosaTello/Pewlett-Hackard-Analysis/blob/main/Resources/ret_ttl_rst.png)
